@@ -49,7 +49,10 @@ public class ProblemSet3 {
      */
     
     public void sign() {
-
+	 Scanner in = new Scanner(System.in);
+	 int pnzNum = sc.nextInt(); 
+	 
+	 
     }
     
     /*
