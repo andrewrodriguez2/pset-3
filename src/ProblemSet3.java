@@ -49,13 +49,25 @@ public class ProblemSet3 {
      */
     
     public void sign() {
-	 Scanner in = new Scanner(System.in);
-	 int pnzNum = sc.nextInt(); 
-	 
-	 
+	int pnzNum;
+	 Scanner pnz = new Scanner(System.in);
+	 System.out.println("Enter an interger: ");
+	 pnzNum = pnz.nextInt(); 
+	 if (pnzNum > 0)
+	 {
+		 System.out.println("Positive");
+	 }
+	else if(pnzNum < 0)
+	{
+	System.out.println("Negative");
+	}
+	 else
+	 {
+	System.out.println("Zero");
+	 }
     }
     
-    /*
+   /*
      * Exercise 2.
      * 
      * Prompt the user to enter an integer. Is it even or odd?
