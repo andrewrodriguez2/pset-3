@@ -74,7 +74,15 @@ public class ProblemSet3 {
      */
     
     public void parity() {
-
+	int eoo;
+	System.out.println("\nEnter an interger: ");
+	Scanner eos = new Scanner(System.in);
+	eoo = eos.nextInt();
+	if ( eoo % 2 == 0 )
+        System.out.println("Even");
+     else
+        System.out.println("Odd");
+ 
     }
     
     /*
