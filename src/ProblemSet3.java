@@ -92,7 +92,13 @@ public class ProblemSet3 {
      */
     
     public void ordered() {
-
+	int ord;
+	System.out.println("\nEnter three intergers. ");
+	System.out.println("\nEnter interger: ");
+	System.out.println("Enter interger: ");
+	System.out.println("Enter interger: ");
+	Scanner order = new Scanner(System.in);
+	ord = order.nextInt();
     }
     
     /*
